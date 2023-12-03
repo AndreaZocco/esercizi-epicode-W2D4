@@ -1,0 +1,480 @@
+body {
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+main {
+    background-color: #fafafa;
+}
+
+header {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.divLogo,
+.divIcons {
+    flex: 0 0 50%;
+}
+
+.divIcons {
+    justify-content: space-between;
+    padding-left: 450px;
+    margin: auto;
+}
+
+.logo {
+    cursor: pointer;
+    width: 190px;
+    height: 80px;
+    padding-left: 200px;
+}
+
+.divIcons img {
+
+    cursor: pointer;
+    height: 20px;
+    width: 25px;
+    padding-top: 30px;
+}
+
+.resumeButton {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-radius: 25px;
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.resumeButton:hover {
+    background-color: #d6d6d6;
+}
+
+.tButton {
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 15px;
+    border: none;
+    background-color: #F4511E;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    width: 48px;
+    margin-bottom: 15px;
+}
+
+.preArticle {
+    padding-left: 200px;
+    width: 50%;
+}
+
+.following {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.racommended {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+.following:hover,
+.racommended:hover {
+    color: black;
+}
+
+.following:hover~.lineaTop,
+.racommended:hover~.lineaTop {
+    background-color: black;
+}
+
+.lineaTop {
+    border: none;
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+/* Articoli */
+
+.main-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    width: auto;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+    padding: 15px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#profilePicArticle,
+#profilePicArticle2,
+#profilePicArticle3,
+#profilePicArticle4,
+#profilePicArticle5,
+#profilePicArticle6 {
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin: 0;
+}
+
+span {
+    margin: 0;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.underline {
+    cursor: pointer;
+    color: #F4511E;
+    text-decoration: underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.article h2 {
+    cursor: pointer;
+    color: #282828;
+    font-size: 30px;
+    margin: 0;
+}
+
+.article p {
+    color: grey;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.infoArticle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 97%;/
+}
+
+#infoArticle {
+    align-items: center;
+    font-size: 14px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.articleIcons {
+    cursor: pointer;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.icons-container {
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+#infoArticle button {
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    color: grey;
+}
+
+.article img {
+    height: 180px;
+    width: 250px;
+}
+
+
+.sidebar {
+    margin-left: 60px;
+    flex: 45%;
+    border-left: 1px solid #ccc;
+
+}
+
+.contentOneAside {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.più {
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+}
+
+
+.mediumIcon {
+    width: 55px;
+    height: auto;
+    padding-right: 3px;
+}
+
+.twitterIcon {
+    padding-left: 3px;
+    padding-top: 35px;
+    width: 35px;
+    height: 30px;
+}
+
+.twitterText {
+    text-align: center;
+    font-size: 18px;
+}
+
+.connectTwitter {
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 25px;
+    border-width: 1px;
+    padding: 10px;
+    font-size: 15px;
+    width: 180px;
+}
+
+.connectTwitter:hover {
+    background-color: #cfcfcf;
+}
+
+
+.twitter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterIcon2 {
+    width: 20px;
+    height: 15px;
+
+}
+
+.twitHr {
+    width: 380px;
+    border: 1px solid #ccc;
+}
+
+#pTwitter {
+    cursor: pointer;
+    color: grey;
+    text-decoration: underline;
+}
+
+.topics {
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.pTopics {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttonTopics {
+    cursor: pointer;
+    padding-left: 100px;
+    padding-right: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+
+.buttonTopics button {
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    height: 35px;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttonTopics button:hover {
+    background-color: #cfcfcf;
+}
+
+.recommended-users {
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.recommended-users h2 {
+    padding-left: 87px;
+    font-size: 18px;
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user {
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user-info strong {
+    display: flex;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+}
+
+.user-info span {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.follow-btn {
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: 120px;
+    padding: 5px 15px;
+    border: #282828 1px solid;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.follow-btn:hover {
+    background-color: #cfcfcf;
+}
+
+/* RECENTLY SAVED */
+
+.recentlySaved {
+    padding-left: 112px;
+    font-size: 16px;
+}
+
+.savedIcon {
+    display: flex;
+}
+
+.savedIconWoman {
+    margin-top: 13px;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.keiffenheim {
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.evaStrong {
+    cursor: pointer;
+}
+
+.h3Keiff {
+    color: #292A29;
+    margin: auto;
+}
+
+.recentlySaved span {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.profile {
+    margin-top: 55px;
+}
+
+.recentlySaved2 {
+    padding-top: 40px;
+    padding-left: 112px;
+    font-size: 16px;
+}
+
+.recentlySaved2 span {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+footer {
+    margin-top: 55px;
+    margin-left: 112px;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: grey;
+    text-decoration: none;
+    font-size: 16px;
+}
